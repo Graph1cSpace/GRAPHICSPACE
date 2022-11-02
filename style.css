@@ -26,6 +26,9 @@ em {
     border-radius: 4px;
     border-style: solid;
     border-width: 3px;
+    margin: 0 auto;
+    padding: 5px 5px;
+    box-sizing: border-box;
 
 }
 
@@ -34,6 +37,9 @@ em {
     border-radius: 4px;
     border-style: solid;
     border-width: 3px;
+    margin: 0 auto;
+    padding: 5px 5px;
+    box-sizing: border-box;
 
 }
 
@@ -42,6 +48,9 @@ em {
     border-radius: 4px;
     border-style: solid;
     border-width: 3px;
+    margin: 0 auto;
+    padding: 5px 5px;
+    box-sizing: border-box;
 }
 
 #Gerenciamentos{
@@ -49,6 +58,9 @@ em {
     border-radius: 4px;
     border-style: solid;
     border-width: 3px;
+    margin: 0 auto;
+    padding: 5px 5px;
+    box-sizing: border-box;
 
 }
 
@@ -57,6 +69,9 @@ em {
     border-radius: 4px;
     border-style: solid;
     border-width: 3px;
+    margin: 0 auto;
+    padding: 5px 5px;
+    box-sizing: border-box;
 
 }
 
@@ -94,10 +109,7 @@ ol {
     border-radius: 4px;
     border-style: solid;
     border-width: 3px;
-}
-
-.box {
-    width: 300px;
-    height: 300px;
-    background: black
+    margin: 0 auto;
+    padding: 5px 5px;
+    box-sizing: border-box;
 }
