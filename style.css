@@ -1,107 +1,83 @@
-
 p {
-
      text-align: center;
-
  }
 
 strong {
-
-    color: rebeccapurple;
-
+    color: white;
 }
 
 em {
-
-    color: #B900FF;
-
+    color: #8300E3;
 }
 
 #aprenda {
-
     font-size: 25px;
-
+   color: rebeccapurple;
 }
 
 #logo4 {
-
     width: 100%;
+
 
 }
 
 #Designers {
-
     width: 30%;
+    margin: 0 auto;
+
 
 }
 
 #flyers {
-
     width: 30%;
 
 }
 
 #Panfletos {
-
     width: 30%;
 
 }
 
 #Gerenciamentos{
-
     width: 30%;
 
 }
 
 #Fotos {
-
     width: 24%;
 
 }
 
+#insta {
+    width: 5%;
+}
+
 .itens {
-
     font-style: italic
-
 }
 
 .beneficios{
-
     background: #8300E3;
-
     padding: 20px;
-
 }
 
 .principal{
-
-    background: #ACACAC;
-
+    background: #8300E3;
     padding: 10px;
-
 }
 
 h1{
-
     text-align: center;
-
 }
 
 ol {
-
     display: inline-block;
-
     vertical-align: top;
-
     width: 20%;
-
     margin-right: 15%;
-
 }
 
-.imgbeneficios {
-
+.imgbeneficio {
     width: 50%;
-
 }
 
