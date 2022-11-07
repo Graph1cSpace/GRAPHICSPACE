@@ -6,9 +6,16 @@ strong {
     color: white;
 }
 
+stroke {
+    color: white;
+    font-size: 15px;
+
+}
+
 em {
     color: #8300E3;
 }
+
 
 #aprenda {
     font-size: 25px;
@@ -17,6 +24,7 @@ em {
 
 #logo4 {
     width: 100%;
+    
 
 
 }
@@ -24,54 +32,54 @@ em {
 #Designers {
     width: 30%;
     border-radius: 4px;
-    border-style: solid;
     border-width: 3px;
     margin: 0 auto;
     padding: 5px 5px;
     box-sizing: border-box;
+    background: linear-gradient( #FFAA00, #00FF1F, #FF0000);
 
 }
 
 #flyers {
     width: 30%;
     border-radius: 4px;
-    border-style: solid;
     border-width: 3px;
     margin: 0 auto;
     padding: 5px 5px;
     box-sizing: border-box;
+    background: linear-gradient( #FFAA00, #00FF1F, #FF0000);
 
 }
 
 #Panfletos {
     width: 30%;
     border-radius: 4px;
-    border-style: solid;
     border-width: 3px;
     margin: 0 auto;
     padding: 5px 5px;
     box-sizing: border-box;
+    background: linear-gradient( #FFAA00, #00FF1F, #FF0000);
 }
 
 #Gerenciamentos{
     width: 30%;
     border-radius: 4px;
-    border-style: solid;
     border-width: 3px;
     margin: 0 auto;
     padding: 5px 5px;
     box-sizing: border-box;
+    background: linear-gradient( #FFAA00, #00FF1F, #FF0000);
 
 }
 
 #Fotos {
-    width: 24%;
+    width: 30%;
     border-radius: 4px;
-    border-style: solid;
     border-width: 3px;
     margin: 0 auto;
     padding: 5px 5px;
     box-sizing: border-box;
+    background: linear-gradient( #FFAA00, #00FF1F, #FF0000);
 
 }
 
@@ -112,4 +120,5 @@ ol {
     margin: 0 auto;
     padding: 5px 5px;
     box-sizing: border-box;
+    border-color: white;
 }
