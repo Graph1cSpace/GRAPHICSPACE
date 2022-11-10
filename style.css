@@ -1,169 +1,141 @@
-p {
-     text-align: center;
- }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 
-strong {
-    color: white;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
-
-stroke {
-    color: white;
-    font-size: 15px;
-
-}
-
-em {
-    color: #8300E3;
-}
-
-
-#aprenda {
-    font-size: 25px;
-   color: rebeccapurple;
-}
-
-#logo4 {
+section{
+    position: relative;
     width: 100%;
+    min-height: 100vh;
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    overflow: hidden;
+}
+.circle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #9103CA;
+    clip-path: circle(50% at bottom right);
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .logo{
+    position:absolute;
+    max-width: 150px;
     
-
-
 }
-
-#Designers {
-    width: 30%;
-    border-radius: 4px;
-    border-width: 3px;
-    margin: 0 auto;
-    padding: 5px 5px;
-    box-sizing: border-box;
-    background: linear-gradient( #FFAA00, #00FF1F, #FF0000);
-
+header .navegation ul{
+    position: relative;
+    display: flex;
 }
-
-#flyers {
-    width: 30%;
-    border-radius: 4px;
-    border-width: 3px;
-    margin: 0 auto;
-    padding: 5px 5px;
-    box-sizing: border-box;
-    background: linear-gradient( #FFAA00, #00FF1F, #FF0000);
-
+header .navegation  li{
+    list-style: none;
 }
-
-#Panfletos {
-    width: 30%;
-    border-radius: 4px;
-    border-width: 3px;
-    margin: 0 auto;
-    padding: 5px 5px;
-    box-sizing: border-box;
-    background: linear-gradient( #FFAA00, #00FF1F, #FF0000);
-}
-
-#Gerenciamentos{
-    width: 30%;
-    border-radius: 4px;
-    border-width: 3px;
-    margin: 0 auto;
-    padding: 5px 5px;
-    box-sizing: border-box;
-    background: linear-gradient( #FFAA00, #00FF1F, #FF0000);
-
-}
-
-#Fotos {
-    width: 30%;
-    border-radius: 4px;
-    border-width: 3px;
-    margin: 0 auto;
-    padding: 5px 5px;
-    box-sizing: border-box;
-    background: linear-gradient( #FFAA00, #00FF1F, #FF0000);
-
-}
-
-#insta {
-    width: 5%;
-}
-
-.itens {
-    font-style: italic
-}
-
-.beneficios{
-    background: #8300E3;
-    padding: 20px;
-}
-
-.principal{
-    background: #8300E3;
-    padding: 10px;
-}
-
-h1{
-    text-align: center;
-}
-
-ol {
+header .navegation li a{
     display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 19px;
+    margin-left: 100px;
 }
-
-.imgbeneficio {
-    width: 50%;
-    border-radius: 4px;
-    border-style: solid;
-    border-width: 3px;
-    margin: 0 auto;
-    padding: 5px 5px;
-    box-sizing: border-box;
-    border-color: white;
+.content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-</head>
-<body>
-    <section>
-        <div class="circle"></div>
-        <header>
-            <a href="#"><img src="img/logo.png" alt="" class="logo"></a>
-            <nav class="navegation">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Products</a></li>
-                    <li><a href="#">Newsletter</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
-        <div class="content">
-            <div class="text">
-                <h2>THAT'S WHAT <br><span>I LIKE</span></h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores autem eaque voluptas accusamus, illum, quisquam distinctio adipisci iusto earum corrupti soluta tenetur voluptatibus aperiam saepe vitae architecto eligendi repellendus delectus?</p>
-                <a href="#">VIEW ALL PRODUCTS</a>
-            </div>
-        </div>
-        <ul class="icons">
-            <li><a href="#"><img src="img/facebook.png" alt=""></a></li>
-            <li><a href="#"><img src="img/twitter.png" alt=""></a></li>
-            <li><a href="#"><img src="img/instagram.png" alt=""></a></li>
-        </ul>
-        <div class="boxImg">
-            <img src="img/cocacola1.png" alt="" class="img1">
-            <img src="img/cocacola2.png" alt="" class="img2">
-            <img src="img/cocacola3.png" alt="" class="img3">
-            <img src="img/cocacola4.png" alt="" class="img4">
-        </div>
-    </section>
-</body>
-</html>
+.content .text{
+    position: relative;
+    max-width: 600px;
+    margin-right: 18px;
+}
+.content .text h2{
+    color: #9103CA;
+    font-size: 3em;
+    margin-bottom: 10px;
+    line-height: 2.5em;
+    font-weight: 700;
+}
+.content .text h2 span{
+    font-size: 2.5em;
+    color: #9103CA;
+}
+.content .text p{
+    color: #fff;
+}
+.content .text a{
+    display: inline-block;
+    margin-top: 50px;
+    padding: 10px 25px;
+    background: #9103CA;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-decoration: none;
+    border-radius: 40px;
+    transition: 0.3s ease-in-out;
+}
+.content .text a:hover{
+    transform: translateY(-10px);
+}
+.icons{
+    position: absolute;
+    bottom: 40px;
+    left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons li{
+    list-style: none;
+}
+.icons li a{
+    display: inline-block;
+    margin-left: 30px;
+    background: #222;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition:  0.3s ease-in-out;
+}
+.icons li a:hover{
+    background: #9103CA;
+    transform: translateY(-10px);
+}
+.icons li a img{
+    filter: invert(1);
+    transform: scale(0.5);
+}
+.boxImg{
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+}
+.boxImg img{
+    width: 500px;
+}
+.boxImg .img{
+    transform: rotate(-15deg)
+}
