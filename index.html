@@ -1,210 +1,43 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
-    <head>
-        <meta charset="UTF-8">
-        <title>Graphic Space</title>
-        <link rel="stylesheet" href="style.css">
-
-    </head>
-
-    <body>
-        <img id="logo4" src="logo4.jpg">
-        <div class="principal">
-                <h1 style="text-align: center">Sobre a Graphic Space</h2>
-                <p style="font-size: 20px"><strong>Somos 4 jovens sonhadores e buscamos dar o nosso melhor!!!</strong></p>
-                <p style="font-size: 18px"><strong>Oferecemos:</strong></p>
-
-                <p style="font-size: 18px"><b>-Designers</b></p>
-                <center><a href="file:///C:/Users/EDUARDO.Z/Desktop/GraphicSpace/index%20-%20designers.html"><img id="Designers" src="Designers.jpg"></center></a>
-                <p style="font-size: 18px"><b>-flyers</b></p>
-                <center><a href="file:///C:/Users/EDUARDO.Z/Desktop/GraphicSpace/index%20-%20flyers.html"><img id="flyers" src="flyers.jpg"></center></a>
-                <p style="font-size: 18px"><b>-Panfletos</b></p>
-                <center><a href="file:///C:/Users/EDUARDO.Z/Desktop/GraphicSpace/index%20-%20panfletos.html"><img id="Panfletos" src="Panfletos.jpg"></center></a>
-                <p style="font-size: 18px"><b>-Gerenciamentos de contas</b></p>
-                <center><a href="file:///C:/Users/EDUARDO.Z/Desktop/GraphicSpace/index%20-%20gereciamentos%20de%20contas.html"><img id="Gerenciamentos" src="Gerenciamentos.jpg"></center></a>
-                <p style="font-size: 18px"><b>-Fotos</b></p>
-                <center><a href="file:///C:/Users/EDUARDO.Z/Desktop/GraphicSpace/index%20-%20fotos.html"><img id="Fotos" src="Fotos.jpg"></center></a>
-               
-                <p><stroke><b>Para mais informações entre contato pelo instagram.</b></stroke></p>
-
-                <center><img id="insta" src="insta.png"></center>
-                 <center><b><a href="https://www.instagram.com/graphic_space_mk/">graphic_space_mk</a></b></center>
-                
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>GRAPHIC SPACE</title>
+</head>
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="#"><img src="img.logo.png" alt="" class="logo"></a>
+            <nav class="navegation">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Newsletter</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="content">
+            <div class="text">
+                <h2>QUEM SOMOS?</h2>
+                <p>Graphic Space foi criada com o intuito de alavancar empresas através do marketing. Somos
+                4 jovens sonhadores e buscamos dar o nosso melhor. Afinal, foguete não voa, decola!🚀</p>
+                <a href="#">VIEW ALL PRODUCTS</a>
+            </div>
         </div>
-
-        <div class="beneficios">
-        <h2>Benefícios</h2>
-            <ol>
-                 <p style="font-size: 46px"><b><li class="itens">Melhor qualidade.</b></p></li>
-                 <p style="font-size: 46px"><b><li class="itens">Rápido e prático.</b></p></li>
-                 <p style="font-size: 46px"><b><li class="itens">artes fantástica.</b></p></li>
-                 <p style="font-size: 46px"><b><li class="itens">tendo uma boa renderização de imagens e vídio.</b></p></li>
-                 <p style="font-size: 46px"><b><li class="itens">Fazer sua empresa progredir.</b></p></li>
-            </ol>
-
-            <img src="imgbeneficio.jpg" class="imgbeneficio">
+        <ul class="icons">
+            <li><a href="#"><img src="img.facebook.png" alt=""></a></li>
+            <li><a href="#"><img src="img.twitter.png" alt=""></a></li>
+            <li><a href="#"><img src="img.instagram.png" alt=""></a></li>
+        </ul>
+        <div class="boxImg">
+            <img src="img.astro.png" alt="" class="img1">
+           
         </div>
-
-        <p id="aprenda"><b>Venha crescer com a gente!!!</b></p>
-
-        <p><small>Consulte as nossas condições de pagamento.</small></p>
-        <p style="text-align: right"><em>Vamos dar o nosso melhor para a sua empresa progredir!! O céu é o limite!!🚀🌌</em></p>
-        <p style="text-align: right">Eduardo Zapaowski</p>
-        <p style="text-align: right">Yasmin Mariani</p>
-        <p style="text-align: right">Maria Eduarda Molina</p>
-        <p style="text-align: right">João Pedro de Sousa</p>
-    </body>
+    </section>
+</body>
 </html>
-
-
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
-section{
-    position: relative;
-    width: 100%;
-    min-height: 100vh;
-    padding: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: #121212;
-    overflow: hidden;
-}
-.circle{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #e51e2a;
-    clip-path: circle(50% at bottom right);
-}
-header{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 40px 100px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-header .logo{
-    position: relative;
-    max-width: 150px;
-}
-header .navegation ul{
-    position: relative;
-    display: flex;
-}
-header .navegation  li{
-    list-style: none;
-}
-header .navegation li a{
-    display: inline-block;
-    color: #fff;
-    font-weight: 500;
-    text-decoration: none;
-    font-size: 19px;
-    margin-left: 100px;
-}
-.content{
-    position: relative;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.content .text{
-    position: relative;
-    max-width: 600px;
-    margin-right: 20px;
-}
-.content .text h2{
-    color: #fff;
-    font-size: 3em;
-    margin-bottom: 10px;
-    line-height: 2.5em;
-    font-weight: 700;
-}
-.content .text h2 span{
-    font-size: 3.5em;
-    color: #e51e2a;
-}
-.content .text p{
-    color: #fff;
-}
-.content .text a{
-    display: inline-block;
-    margin-top: 50px;
-    padding: 10px 25px;
-    background: #e51e2a;
-    color: #fff;
-    font-weight: 500;
-    letter-spacing: 1px;
-    text-decoration: none;
-    border-radius: 40px;
-    transition: 0.3s ease-in-out;
-}
-.content .text a:hover{
-    transform: translateY(-10px);
-}
-.icons{
-    position: absolute;
-    bottom: 40px;
-    left: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.icons li{
-    list-style: none;
-}
-.icons li a{
-    display: inline-block;
-    margin-left: 45px;
-    background: #222;
-    width: 50px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    transition:  0.3s ease-in-out;
-}
-.icons li a:hover{
-    background: #e51e2a;
-    transform: translateY(-10px);
-}
-.icons li a img{
-    filter: invert(1);
-    transform: scale(0.5);
-}
-.boxImg{
-    position: absolute;
-    right: 0;
-    bottom: -40px;
-}
-.boxImg img{
-    width: 200px;
-}
-.boxImg .img1{
-    transform: rotate(-15deg)
-}
-.boxImg .img2{
-    transform: rotate(5deg)
-}
-.boxImg .img3{
-    transform: rotate(15deg)
-}
-.boxImg .img4{
-    transform: rotate(-15deg)
-}
