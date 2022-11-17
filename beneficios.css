@@ -1,0 +1,52 @@
+p {
+     text-align: center;
+ }
+
+strong {
+    color: rebeccapurple;
+}
+
+em {
+    color: black;
+}
+
+#aprenda {
+    font-size: 25px
+}
+
+#banner {
+    width: 100%;
+}
+
+.itens {
+    font-style: italic
+}
+
+.beneficios{
+    background: #8300E3;
+    padding: 20px;
+}
+
+.principal{
+    background: #ACACAC;
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+ol {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    margin-right: 15%;
+}
+
+.img.beneficios {
+    width: 10%;
+}
+.img.bene {
+    width: 10%;
+     margin-right: 15%;
+}
