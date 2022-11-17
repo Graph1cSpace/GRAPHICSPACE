@@ -16,12 +16,12 @@ em {
 }
 
 .beneficios{
-    background:#9103CA;
+    background: #8300E3;
     padding: 20px;
 }
 
 .principal{
-    background: #9103CA;
+    background: #8300E3;
     padding: 20px;
 }
 
@@ -38,4 +38,20 @@ ol {
 
 .img.beneficios {
     width: 10%;
+}
+.casas ul{
+    position: absolute;
+    display: flex;
+}
+.casas  li{
+    list-style: none;
+}
+.casas li a{
+    display: inline-block;
+    color: #8300E3;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 19px;
+    margin-right: 1200px;
+
 }
