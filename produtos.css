@@ -51,7 +51,7 @@ h1{
     box-sizing: border-box;
     border: 4px solid #9103CA;
     border-radius: 10px;
-    transition: 0.3s ease-it;
+    transition: 0.3s ease-in-out;
 }
 .PRODUTOS li:hover{
     transform: translateY(-10px);
